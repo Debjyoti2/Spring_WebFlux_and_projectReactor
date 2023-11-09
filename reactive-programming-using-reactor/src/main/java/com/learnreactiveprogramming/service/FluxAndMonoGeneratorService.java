@@ -8,7 +8,7 @@ public class FluxAndMonoGeneratorService {
 
     public Flux<String> empNames(){
 
-        return Flux.fromIterable(List.of("Joydeep","Soutan","Debjyoti","Loknath"));
+        return Flux.fromIterable(List.of("Joydeep","Soutan","Debjyoti","Loknath","Kittu"));
     }
 
     public static void main(String[] args) {
